@@ -16,6 +16,7 @@
 
 - Ensure KeyboardInterrupt/SystemExit halts microbatch model execution ([#10862](https://github.com/dbt-labs/dbt-core/issues/10862))
 - Handle exceptions in `get_execution_status` more broadly to better ensure `run_results.json` gets written ([#10934](https://github.com/dbt-labs/dbt-core/issues/10934))
+- Remove Duplicate seedNode from ParsedNode ([#11041](https://github.com/dbt-labs/dbt-core/issues/11041))
 
 ### Under the Hood
 
